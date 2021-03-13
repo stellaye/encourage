@@ -16,9 +16,9 @@ setup(
 
     description = "A command line tool speak beautiful words to you to encourage you ",
     long_description = README,
-    #
-    # packages = find_packages('encourage'),
-
+    install_requires=[
+     "pyttsx3"
+    ],
     platforms = 'any',
     zip_safe = True,
     include_package_data = True,
